@@ -1,28 +1,85 @@
-/*Navbar*/
-.navbar-brand { 
-p {
-  display: block;
-  margin: 0px auto;
-  font-family: Caprasimo;
-  font-size: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+/* Variables */
+$primary: #ad91a3;
+$secondary: #9bc1bc;
+$white: #fef9eb;
+$accent: #474350;
+$accent-two: #e1ccd4;
+
+/*Navbar Fixes*/
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
 }
 
+.dropdown .fa-chevron-down {
+  font-size: 10px !important;
+}
 
+.nav-link {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.dropdown a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.overlay {
+  position: relative;
+}
+
+.bg-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: visible;
+  background-position: center;
+}
+
+.wood-bg {
+  background: $primary;
+}
+
+.wood-bg::before {
+  background: rgba(0, 0, 0, 0.01);
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.navbar-brand {
+  p {
+    display: block;
+    margin: 0px auto;
+    font-family: Oooh Baby;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+}
+
+.dropdown {
+  margin-top: 8px !important;
+}
+
+.dropdown p {
+  margin-bottom: 0px !important;
+}
 
 /*Jumbo*/
 .jumbo {
   background-image: url("/images/santorini-greece.jpg");
-  height: 500px; 
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  
-h1 {
 
-
-}
-
+  h1 {
+  }
 }
