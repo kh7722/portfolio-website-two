@@ -4,8 +4,26 @@ $secondary: #9bc1bc;
 $white: #fef9eb;
 $accent: #474350;
 $accent-two: #e1ccd4;
+$primary-font: Oooh Baby;
+$secondary-font: Cormorant;
+/* End Variables */
+
+/* Global Styling */
+h2 {
+font-family: $primary-font;
+font-size: 35px;
+color: $primary;
+}
 
 /*Navbar Fixes*/
+.nav-item a {
+  color: $secondary;
+}
+
+.dropdown a {
+  color: $secondary;
+}
+
 .navbar-expand-lg .navbar-collapse {
   justify-content: center;
 }
@@ -72,14 +90,49 @@ $accent-two: #e1ccd4;
   margin-bottom: 0px !important;
 }
 
-/*Jumbo*/
+/* End Navbar Fixes */
+
+/* Jumbo */
 .jumbo {
   background-image: url("/images/santorini-greece.jpg");
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+/* End Jumbo */
 
-  h1 {
+/* Content Block 1 */
+.content-block-1 {
+  background-color: $white;
+
+  p {
+    font-family: $secondary-font;
+    font-size: 22px;
+    color: $white;
   }
+
+  .btn {
+    background-color: $secondary;
+    color: $white;
+    font-family: Cormorant;
+    font-size: 18px;
+    box-shadow: none;
+    border-radius: 0px;
+    font-weight: 800;
+}
+
+.btn:hover {
+  background-color: $secondary;
+  color: #fff;
+  box-shadow: none;
+}
+
+.card .bg-image {
+  border-radius: 0px;
+}
+
+.card-body {
+background-color:#ad91a3;
+}
 }
