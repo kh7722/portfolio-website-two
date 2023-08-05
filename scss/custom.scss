@@ -15,13 +15,45 @@ font-size: 35px;
 color: $primary;
 }
 
+h3 {
+  font-family: $secondary-font;
+  font-size: 25px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #ad91a3;
+  font-family: $secondary-font;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: none !important;
+}
+
+.btn:hover {
+background-color: $secondary;
+color: #fff;
+box-shadow: none !important;
+}
+
+a {
+  color: $primary;
+  text-decoration: underline;
+}
+
+/* End Global Styling */
+
 /*Navbar Fixes*/
 .nav-item a {
   color: $secondary;
+  text-decoration: none;
 }
 
 .dropdown a {
   color: $secondary;
+  text-decoration: none;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -71,6 +103,8 @@ color: $primary;
 }
 
 .navbar-brand {
+  text-decoration: none;
+
   p {
     display: block;
     margin: 0px auto;
@@ -109,30 +143,60 @@ color: $primary;
   p {
     font-family: $secondary-font;
     font-size: 22px;
-    color: $white;
+    color: #fff;
+    line-height: 1.2;
   }
 
-  .btn {
-    background-color: $secondary;
-    color: $white;
-    font-family: Cormorant;
-    font-size: 18px;
-    box-shadow: none;
-    border-radius: 0px;
-    font-weight: 800;
-}
-
-.btn:hover {
-  background-color: $secondary;
-  color: #fff;
-  box-shadow: none;
+.card {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-top: 15px solid #fff;
+  border-left: 15px solid #fff;
+  border-right: 15px solid #fff;
 }
 
 .card .bg-image {
   border-radius: 0px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
 }
 
 .card-body {
 background-color:#ad91a3;
 }
 }
+/* End Content Block 1 */
+
+/* Content Block 2 */
+.content-block-2 {
+
+.col-md-8 {
+  background-color: $white;
+}
+
+.col-md-5 img {
+  max-width: 300px;
+}
+
+.col-md-3 {
+  background-color: $white;
+}
+
+.col-md-3 img {
+  max-width: 300px;
+}
+
+.col-md-6 {
+  border-left: 1px solid #e1e1e1;
+}
+ .btn {
+  background-color: $primary;
+  color: #fff;
+ }
+
+ .btn:hover {
+  background-color: $secondary;
+  color: #fff;
+ }
+}
+/* End Content Block 2 */
