@@ -24,6 +24,10 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-family: $secondary-font;
+}
+
 .btn {
   background-color: #fff;
   color: #ad91a3;
@@ -237,14 +241,49 @@ a {
 
 /* Content Block 3 */
 
-/*
 .carousel-item {
-    height: 300px;
+  height: 400px;
 }
-*/
 
 .carousel-item img {
-  margin-top: -250px;
+  margin-top: -300px;
 }
 
+.content-block-3 {
+  a {
+    color: #fff !important;
+    text-decoration: none !important;
+
+    h4 {
+      font-size: 35px;
+      background-color: rgb(173 145 163 / 90%);
+      max-width: 250px;
+      display: block;
+      margin: 0px auto;
+      border-radius: 30px;
+      padding: 5px;
+      margin-bottom: 30px;
+    }
+  }
+}
 /* Content Block 3 */
+
+/* Content Block 4 */
+.content-block-4 {
+  img {
+    max-width: 450px;
+  }
+
+  .card {
+    background-color: #ad91a3;
+    padding: 20px !important;
+    height: 400px;
+  }
+
+  .btn {
+    max-width: 175px;
+    margin: 0px auto;
+  }
+}
+
+/* Content Block 4 */
