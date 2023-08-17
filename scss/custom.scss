@@ -270,20 +270,50 @@ a {
 
 /* Content Block 4 */
 .content-block-4 {
+  margin-top: 35px;
+
   img {
     max-width: 450px;
+    margin-left: -30px;
+    outline: #fff solid 1px;
+    outline-offset: -5px;
   }
 
   .card {
     background-color: #ad91a3;
     padding: 20px !important;
     height: 400px;
+    justify-content: center;
   }
 
   .btn {
     max-width: 175px;
     margin: 0px auto;
   }
+
+  .col-md-4 {
+    padding: 0px;
+  }
 }
 
 /* Content Block 4 */
+
+/* Content Block 5 */
+.content-block-5 {
+  background-color: $primary;
+
+  .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .content {
+    padding: 50px !important;
+    text-align: center;
+  }
+
+  .col-md-3 {
+    padding: 0px;
+    background-position: center;
+  }
+}
+/* Content Block 5 */
