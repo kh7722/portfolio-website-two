@@ -9,7 +9,7 @@
 <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
 
 <!-- JS -->
-<link rel="stylesheet" href="/custom.js"/>
+<script src="/custom.js"></script>
 
 
 <!-- Font Awesome -->
@@ -281,15 +281,53 @@ aria-label="Toggle navigation"
 </div>
 </div>
 <!-- Carousel wrapper -->
+<!-- Carousel wrapper -->
 
 <!-- Content Block 3 -->
 
 <!-- Content Block 6 -->
 
-<div class="content-block-6">
+<div class="content-block-6 py-5">
+  <div class="container">
+    <h2 class="text-center">Explore By Landmark</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-3 align-self-center">
+    <div class="map-menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+        <!-- Collapsible wrapper -->
+        <!-- Links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Statue of Liberty ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Big Ben ></a>
+          </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Eiffel Tower ></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Taj Mahal ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Mayan Pyramids ></a>
+          </li>
+        </ul>
+        <!-- Links -->
+        </div>
+        <!-- Collapsible wrapper -->
+        
+        
+        <!-- Right elements -->
+      
+        <!-- Container wrapper -->
+        </nav>
+    </div>
+    </div>
+    <div class="col-md-9">
   <div class="tba-destinations text-center py-5">
   <div class="tba-wrapper">
-  <h2 class="mb-5">Explore By Landmark</h2>
   <div class="dest-map">
   <script>
                 jQuery(document).ready(function($) {
@@ -315,6 +353,9 @@ aria-label="Toggle navigation"
   </div>
   </div>
   </div>
+  </div>
+  </div>
+</div>
   </div>
   
   <!-- Content Block 6 -->
@@ -373,7 +414,15 @@ aria-label="Toggle navigation"
 
 <!-- Content Block 5 -->
 
-
+<!-- Content Block 7 -->
+<div class="content-block-7 py-5">
+<h2 class="text-center">Not Sure Where to Go?</h2>
+<form name="WordForm">  
+<input type=text name="WordBox" id="wordbox"><br>
+<input type=button value="Generate a Destination" onClick="PickRandomWord(document.WordForm);" id="button">
+</form>
+</div>
+<!-- Content Block 7 -->
 
 
 <!-- Footer -->
@@ -423,13 +472,13 @@ aria-label="Toggle navigation"
   Destinations
 </h6>
 <p>
-  <a href="#!" class="text-reset">North America</a>
+  <a href="#!" class="text-reset">America</a>
+</p>
+<p>
+  <a href="#!" class="text-reset">Carribean</a>
 </p>
 <p>
   <a href="#!" class="text-reset">Europe</a>
-</p>
-<p>
-  <a href="#!" class="text-reset">Asia</a>
 </p>
 </div>
 <!-- Grid column -->
@@ -437,21 +486,19 @@ aria-label="Toggle navigation"
 <!-- Grid column -->
 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 <!-- Links -->
-<h6 class="text-uppercase fw-bold mb-4">
-  Resources
+
+<a href="#"><h6 class="text-uppercase fw-bold mb-4">
+  Blog
+</h6></a>
+<a href="#"><h6 class="text-uppercase fw-bold mb-4">
+  Photography
+</h6></a>
 </h6>
-<p>
-  <a href="#!" class="text-reset">Funding Travel</a>
-</p>
-<p>
-  <a href="#!" class="text-reset">Airline Tips</a>
-</p>
-<p>
-  <a href="#!" class="text-reset">Abroad Tips</a>
-</p>
-<p>
-  <a href="#!" class="text-reset">Meet Ups</a>
-</p>
+<a href="#"><h6 class="text-uppercase fw-bold mb-4">
+  Travel Finances
+</h6></a>
+
+
 </div>
 <!-- Grid column -->
 
@@ -461,7 +508,7 @@ aria-label="Toggle navigation"
 <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
 <p>
   <i class="fas fa-envelope me-3"></i>
-  hello@teeterstravel.com
+  <a href="mailto:">hello@teeterstravel.com</a>
 </p>
 </div>
 <!-- Grid column -->
@@ -473,7 +520,7 @@ aria-label="Toggle navigation"
 
 <!-- Copyright -->
 <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-© [year] Copyright: Teeters Travel
+© 2023 Copyright: Teeters Travel
 </div>
 <!-- Copyright -->
 </footer>
