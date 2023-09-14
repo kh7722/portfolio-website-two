@@ -136,7 +136,7 @@ a {
 
 /* Jumbo */
 .jumbo {
-  background-image: url("/images/santorini-greece.jpg");
+  background-image: url("https://kh7722.github.io/portfolio-website-two/images/santorini-greece.jpg");
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -213,14 +213,14 @@ a {
     border-radius: 15px;
 
     .col-md-6 {
-      margin-left: 4%;;
+      margin-left: 4%;
     }
   }
 
   .col-md-5 img {
     max-width: 300px;
-      outline: #fff solid 1px;
-      outline-offset: -5px;
+    outline: #fff solid 1px;
+    outline-offset: -5px;
   }
 
   .col-md-3 {
@@ -232,7 +232,7 @@ a {
   .col-md-3 img {
     max-width: 300px;
   }
-/*
+  /*
   .col-md-5 {
     border-right: 1px solid #e1e1e1;
   }
@@ -335,9 +335,9 @@ a {
 /* Content Block 6 */
 
 .content-block-6 {
-.col-md-3 .map-menu {
-  border-radius: 10px;
-}
+  .col-md-3 .map-menu {
+    border-radius: 10px;
+  }
 
   .map-menu {
     background-color: $primary;
@@ -420,25 +420,40 @@ a {
 
 .content-block-7::after {
   content: "";
-  background: url('/images/compass-bg.jpg');
+  background: url("https://kh7722.github.io/portfolio-website-two/images/compass-bg.jpg");
   opacity: 0.15;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
 }
 
 /* Content Block 7 */
 
 /* Footer */
 footer {
+  position: relative;
+
   a {
     text-decoration: none;
     color: #757575;
   }
 }
+
+footer::after {
+  content: "";
+  background: url("https://kh7722.github.io/portfolio-website-two/images/leaves.png") !important;
+  opacity: 0.03;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  filter: grayscale(100%);
+}
+
 /* Footer */
 
 /* Media Qs */
