@@ -658,6 +658,10 @@ footer::after {
 }
 
 @media (max-width: 768px) {
+  .jumbo {
+    height: 350px;
+}
+
   .content-block-1 {
     .col-md {
       flex: 0 0 100%;
@@ -671,7 +675,11 @@ footer::after {
       border-right: 0px solid #e1e1e1 !important;
 
       img {
-        margin-bottom: 30px !important;
+        max-width: 250px;
+        margin: 0px auto !important;
+        display: block;
+        margin-bottom: 20px !important;
+        padding-right: 0px;
       }
     }
 
@@ -681,18 +689,48 @@ footer::after {
     }
   }
 
-  .content-block-5 .col-md-3 {
-    height: 385px;
+  .content-block-3 {
+    .carousel-item {
+      height: 350px;
   }
+  }
+
+
+  .content-block-4 {
+    img {
+      max-width: 350px;
+  }
+
+    .card {
+    height: 325px;
+}
+
+  .card-content {
+    margin-top: 30px;
+}
+}
+
+.content-block-5 {
+  .col-md-3 {
+    height: 250px;
+    width: 100%;
+    border-top: 2px solid #fff;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.content {
+  padding: 15px !important;
+}
+}
 }
 
 @media (max-width: 680px) {
   .content-block-5 .content {
     padding-left: 20px !important;
     padding-right: 20px !important;
-  }
-  p {
-    font-size: 15 px !important;
   }
 }
 
@@ -702,10 +740,20 @@ footer::after {
     padding-right: 15px;
   }
 
+  .content-block-5 .col-md-3 {
+    height: 270px;
+}
+
   .content-block-4 .row {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+@media (max-width:511px) {
+  .jumbo {
+    height: 445px;
+}
 }
 
 @media (max-width: 481px) {
@@ -739,4 +787,53 @@ footer::after {
   .content-block-6 {
     padding-top: 0px !important;
   }
+}
+
+@media (max-width:436px) {
+  .content-block-4 {
+  .card {
+    height: 355px !important;
+}
+
+img {
+  max-width: 275px;
+}
+  }
+
+  .content-block-5 {
+  
+  .col-md-3 {
+    height: 320px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+}
+
+footer { 
+  .col-md-2 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+  .col-md-3 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.col-md-4 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+}
+}
+
+@media (max-width:393px) {
+  .jumbo {
+    height: 390px;
+}
 }
