@@ -476,7 +476,14 @@ footer {
     text-decoration: none;
     color: #757575;
   }
+
+  .social-row a {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
 }
+
+
 
 footer::after {
   content: "";
@@ -556,6 +563,10 @@ footer::after {
   .dropdown-menu {
     position: relative !important;
   }
+
+  ul.dropdown-menu.dropdown-menu-end.show {
+    margin-bottom: 40px !important;
+}
 
   .navbar-brand {
     margin-top: 0px !important;
@@ -781,7 +792,7 @@ h2 {
   }
 
   .content-block-3 h4 {
-    margin-bottom: 80px !important;
+    margin-bottom: 30px !important;
   }
 
   .content-block-6 {
@@ -833,7 +844,16 @@ footer {
 }
 
 @media (max-width:393px) {
+
   .jumbo {
     height: 390px;
+}
+
+.content-block-1 h2 {
+  font-size: 32px;
+}
+
+.content-block-3 h2 {
+  font-size: 32px;
 }
 }
