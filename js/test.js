@@ -30,17 +30,3 @@ var rnd = Math.ceil(Math.random() * NumberOfWords)
 console.log(rnd)
 frm.WordBox.value = words[rnd]
 }
-
-
-
-
-const container = document.querySelector('.hover-container');
-const text = document.querySelector('.hover-text');
-
-container.addEventListener('mouseenter', function () {
-  text.style.opacity = '1'; // Show text on hover
-});
-
-container.addEventListener('mouseleave', function () {
-  text.style.opacity = '0'; // Hide text when not hovering
-});
