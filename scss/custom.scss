@@ -82,6 +82,16 @@ h4 {
   box-shadow: none !important;
 }
 
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  background-color: $secondary !important;
+  color: #fff !important;
+}
+
+.btn-check:focus + .btn-primary, .btn-check:focus-visible + .btn-primary, .btn-primary:focus {
+  background-color: $secondary !important;
+  color: #fff !important;
+}
+
 a {
   color: $primary;
   text-decoration: underline;
@@ -422,21 +432,20 @@ a {
     font-weight: 300;
   }
 
-  #wordbox {
+  #compass {
     margin: 0px auto 0;
     display: block;
     width: 300px;
-    height: 40px;
+    height: 50px;
     font-size: 30px;
     text-align: center;
     background: #fff;
     border-radius: 0px;
-    color: #black;
     border: 2px solid #e1e1e1;
     font-family: $secondary-font;
   }
 
-  #button {
+  .btn {
     background: $primary;
     border: 0;
     color: #fff;
@@ -451,6 +460,10 @@ a {
     display: block;
     border-radius: 100px;
     text-transform: uppercase;
+  }
+
+  .btn:hover {
+    background: $secondary !important;
   }
 }
 
